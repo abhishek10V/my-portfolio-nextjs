@@ -3,6 +3,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MagicButton from './ui/MagicButton';
 import { FaLocationArrow } from 'react-icons/fa';
+import ProfileImage from './ui/ProfileImage';
 
 const Hero = () => {
   return (
@@ -19,8 +20,9 @@ const Hero = () => {
 
       <div className='flex justify-center relative my-20 z-10'>
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-           <TextGenerateEffect className="text-center text-[50px] md:text-5xl lg:text-7xl" words="ABHISHEK VARSHNEY" />
-           <TextGenerateEffect className="text-center text-[30px] md:text-2xl lg:text-4xl font-medium" words="I am a Web Developer" />
+           <ProfileImage />
+           <TextGenerateEffect className="text-center text-[45px] md:text-4xl lg:text-6xl" words="ABHISHEK VARSHNEY" />
+           <TextGenerateEffect className="text-center text-[20px] md:text-1.5xl lg:text-3xl font-medium" words="I am a Web Developer" />
            <a href='#about'>
             <MagicButton title='My Resume' icon={<FaLocationArrow/>} position='left' />
            </a>
