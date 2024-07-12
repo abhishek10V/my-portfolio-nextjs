@@ -21,9 +21,9 @@ const Hero = () => {
       <div className='flex justify-center relative my-20 z-10'>
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
            <ProfileImage />
-           <TextGenerateEffect className="text-center text-[45px] md:text-4xl lg:text-6xl" words="ABHISHEK VARSHNEY" />
-           <TextGenerateEffect className="text-center text-[20px] md:text-1.5xl lg:text-3xl font-medium" words="I am a Web Developer" />
-           <a href='#about'>
+           <TextGenerateEffect className="text-center text-[40px] md:text-3xl lg:text-5xl" words="ABHISHEK VARSHNEY" />
+           <TextGenerateEffect className="text-center text-[25px] md:text-1.25xl lg:text-2.75xl font-medium" words="I am a Web Developer" />
+           <a href="/Resume.pdf" download="Abhishek_Resume">
             <MagicButton title='My Resume' icon={<FaLocationArrow/>} position='left' />
            </a>
         </div>
