@@ -1,5 +1,6 @@
 import { projects } from '@/data'
 import { PinContainer } from './ui/3d-pin'
+import { color } from 'framer-motion'
 
 function RecentProjects() {
   return (
@@ -19,11 +20,11 @@ function RecentProjects() {
                 <img
                  src={img}
                  alt={title}
-                 className='z-10 absolute bottom-0'
+                 className='z-5 absolute bottom-0'
                  />
               </div>
 
-              <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
+              <h1 className='font-bold text-purple lg:text-2xl md:text-xl text-base line-clamp-1'>
                 {title}
               </h1>
 
