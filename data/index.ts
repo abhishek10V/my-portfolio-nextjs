@@ -198,13 +198,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/abhishek10V"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/abhishek-v10/"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/leetcode.svg",
+    link: "https://leetcode.com/u/Abhishek_V10/"
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
+    link: "https://www.instagram.com/av_1005"
   },
 ];
