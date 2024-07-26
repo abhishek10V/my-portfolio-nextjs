@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Hero from "../components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
@@ -14,7 +16,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
        <Hero />
-       {/* <Grid /> */}
+       <Grid />
        <RecentProjects />
        <Experience />
        <Footer />
