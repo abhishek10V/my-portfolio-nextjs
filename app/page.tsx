@@ -9,6 +9,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
        <Hero />
-       <Grid />
+       <Skills />
        <RecentProjects />
        <Experience />
        <Footer />

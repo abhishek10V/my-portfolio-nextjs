@@ -216,3 +216,168 @@ export const socialMedia = [
     link: "https://www.instagram.com/av_1005"
   },
 ];
+
+export const Skill_data = [
+  {
+    skill_name: "Html 5",
+    Image: "/html.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Css",
+    Image: "/css.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java Script",
+    Image: "/javascript.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: "/tail.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    Image: "/re.svg",
+    width: 80,
+    height: 80,
+  },
+  
+  {
+    skill_name: "Type Script",
+    Image: "/ts.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Next js 13",
+    Image: "/next.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Node js",
+    Image: "/nodejs.jpeg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Mongo db",
+    Image: "/mongo.jpeg",
+    width: 80,
+    height: 80,
+  },
+
+];
+
+export const Frontend_skill = [
+  {
+    skill_name: "Html 5",
+    Image: "/html.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Css",
+    Image: "/css.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java Script",
+    Image: "/javascript.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: "/tail.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    Image: "/re.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Type Script",
+    Image: "/ts.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Next js 13",
+    Image: "/next.svg",
+    width: 80,
+    height: 80,
+  },
+];
+
+export const Backend_skill = [
+  {
+    skill_name: "Node js",
+    Image: "/nodejs.jpeg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Express js",
+    Image: "/express.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Mongo db",
+    Image: "/mongo.jpeg",
+    width: 80,
+    height: 80,
+  },
+ 
+  {
+    skill_name: "Postger SQL",
+    Image: "/postger.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "My SQL",
+    Image: "/mysql.png",
+    width: 80,
+    height: 80,
+  },
+
+];
+
+
+export const Programming_Languages = [
+  {
+    skill_name: "C",
+    Image: "/c.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "C++",
+    Image: "/cpp.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java",
+    Image: "/java.jpeg",
+    width: 80,
+    height: 80,
+  },
+];
+
+
+
+
