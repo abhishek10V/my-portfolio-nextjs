@@ -2,6 +2,8 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
+import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
+import { gridItems } from '@/data'
 
 const Footer = () => {
   return (
@@ -10,16 +12,24 @@ const Footer = () => {
         <h1 className="heading lg:max-w-[45vw] mb-10">
           Lets's get in <span className="text-purple">touch</span>  
         </h1>
-        <a href="mailto:abhishek20021005@gmail.com">
-          <MagicButton
-            title="Mail at"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
+        <BentoGrid className='flex justify-center items-center'>
+        {gridItems.map((item) => (
+            <BentoGridItem
+            id={item.id}
+            key={item.id}
+            title={item.title}
+            description={item.description}
+            className={item.className}
+            img={item.img}
+            imgClassName={item.imgClassName}
+            titleClassName={item.titleClassName}
+            spareImg={item.spareImg}
+           />
+        ))}
+      </BentoGrid>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light sm:mb-5">
+        <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Abhishek Varshney
         </p>
 

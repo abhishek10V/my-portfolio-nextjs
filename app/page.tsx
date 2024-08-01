@@ -1,15 +1,13 @@
 "use client";
 
-import Image from "next/image";
 import Hero from "../components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { FaHome } from "react-icons/fa";
-import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Skills from "@/components/Skills";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -17,6 +15,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
        <Hero />
+       <About />
        <Skills />
        <RecentProjects />
        <Experience />

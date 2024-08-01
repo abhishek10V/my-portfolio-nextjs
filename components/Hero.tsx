@@ -18,9 +18,10 @@ const Hero = () => {
       {/* Radial gradient for the container to give a faded look */}
       {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" /> */}
 
-      <div className='flex justify-center relative my-20 z-10'>
+      <div className='flex justify-center relative my-15 z-10'>
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
            <ProfileImage />
+           <TextGenerateEffect className="text-center text-[25px] md:text-1.25xl lg:text-2.75xl font-medium sm:mb-2 sm:mt-5" words="Hello, Myself" />
            <TextGenerateEffect className="text-center text-[40px] md:text-3xl lg:text-5xl" words="ABHISHEK VARSHNEY" />
            <TextGenerateEffect className="text-center text-[25px] md:text-1.25xl lg:text-2.75xl font-medium sm:mb-10" words="I am a Web Developer" />
            <a href="/Resume.pdf" download="Abhishek_Resume">
